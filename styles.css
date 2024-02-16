@@ -1,16 +1,23 @@
 #logoBar{
   width: 30vw;
   height: 100vh;
+  color: pink; 
+  background-color:blue; 
+
+
 }
 #siteLogo{
   width: 100%;
+color:pink;
 }
 body {
   display: flex;
+  background-color:blue; 
 }
 #staffGallery{
   width: 70vw;
   display: inherit;
+  color: pink; 
 
 }
 .galleryImage{
@@ -18,3 +25,11 @@ body {
   height: auto;
   height: 300px;
 }
+
+#card{
+  width: 30vw;
+  height: 100vh;
+  background-color:yellow;
+  justify-content: space-evenly;
+}
+
