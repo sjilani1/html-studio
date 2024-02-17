@@ -2,35 +2,61 @@
   width: 30vw;
   height: 100vh;
   color: pink; 
-  background-color:blue; 
+  background-color:rgba(255, 255, 149, 0.934); 
+  align-items: center; 
 
 
 }
 #siteLogo{
   width: 100%;
 color:pink;
+align-items: center; 
 }
 body {
   display: flex;
-  background-color:blue; 
+  background-color:rgba(255, 255, 149, 0.934); 
+  object-fit: contain;
+  align-items: center; 
 }
 
 #staffGallery{
   width: 70vw;
   display: inherit;
   color: pink; 
+  justify-content: space-evenly; 
+  align-items: center; 
+  flex-wrap: wrap;
+  /* flex-direction: column; */
 
 }
 .galleryImage{
   width: 100%;
   height: auto;
-  height: 300px;
+  object-fit: contain;
+
 }
 
-#card{
-  width: 30vw;
-  height: 100vh;
-  background-color:yellow;
-  justify-content: space-evenly;
+
+.card{
+  width: 10rem;
+  height: 12rem;
+  background-color:rgb(192, 255, 252);
+  padding: 1rem;
+
+  margin: 0.5rem;
+ 
+  object-fit: contain;
+ 
+  
+
+
 }
 
+
+
+@media screen and (orientation: portrait) and (max-width: 600px) {
+ #logoBar{align-items: center; justify-content: center;}
+ #siteLogo{align-items: flex-start;} 
+body{display: flex; flex-direction: column;} 
+.card{align-items: column;
+justify-content: space-evenly}} 
